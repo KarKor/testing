@@ -44,6 +44,7 @@ public class GamePannel extends javax.swing.JPanel implements ActionListener {
         walls.add(new Wall(700, 350, 50, 150));
         walls.add(new Wall(800, 400, 50, 100));
         walls.add(new Wall(900, 450, 50, 50));
+        walls.add(new Wall(900, 400, 50, 50));
     }
 
     public void paint(Graphics g){
